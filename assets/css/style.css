@@ -1,0 +1,113 @@
+header {
+    border-bottom: 1px solid black;
+    min-height: 80px;
+}
+
+.center960px{
+    width: 960px;
+    margin: 0 auto;
+}
+
+section#main_content {   
+    min-height: 600px;
+    background-image: url("../images/img.jpeg");
+    padding: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+   
+}
+
+.maincontentwrapper {
+    background-color: rgba(255,255,255,0.5);
+    border: 3px solid grey;
+    padding:20px;
+    
+}
+
+footer {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 5px teal solid;
+    background-color: dimgray;
+    color: white;
+
+}
+.myimage {
+    float: left;
+    padding: 10px;
+}
+
+p {
+    line-height: 1.5em;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
+}
+h1#myname {
+    float: left;
+    border: 1px teal solid;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+
+}
+
+ul#main_menu {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+}
+ul li a {
+    color: gray;
+    text-decoration: none;
+    margin: 20px;
+    line-height: 5em;
+}
+.projectWrapper{
+    display: inline-block;
+}
+
+.projectWrapper div {
+    
+    position: relative;
+    bottom:80px; 
+}
+.projectWrapper div p {
+    
+    width: 100%;
+    font-weight: bold;
+    position: fix;
+    text-align: center;
+    background-color: brown;
+    height: 40px; 
+}
+/* Contact Page Stuff */
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: brown;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
